@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
+import {Hello} from './components/Hello';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <h1>iModelJS Learn Series</h1>
-      <h1>Jest Snapshots</h1>
+      <Hello title="iModelJS Learn Series" subTitle="Jest Snapshots" />
     </div>
   );
 }

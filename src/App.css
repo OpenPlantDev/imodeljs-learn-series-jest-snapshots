@@ -31,3 +31,21 @@
     transform: rotate(360deg);
   }
 }
+
+.btn {
+  color: blue;
+  background-color: lightgray;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.infoBtn {
+  color: white;
+  background-color: green;
+}
+
+.alertBtn {
+  color: white;
+  background-color: red;
+
+}
